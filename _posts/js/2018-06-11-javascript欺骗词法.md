@@ -1,7 +1,7 @@
 ---
 title: javascript欺骗词法
 date: 2018-06-11
-category: js
+js: true
 comment: true
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: javascript词法作用域
 date: 2018-06-07
-category: js
+js: true
 comment: true
 ---
 ### 词法作用域
@@ -22,6 +22,7 @@ function a() {
 
 3. 变量提升和函数提升问题
 js其实是编译型语言，在代码执行前，会将变量的申明和函数的申明提升至作用域的最开始部分。这就是变量提升。
+
 ```js
 var a = 1;
 function f() {
