@@ -5,7 +5,7 @@ layout: page
 <div class="posts">
   <ul>
     {% for post in site.posts %}
-    {% if posts.other%}
+    {% if post.other%}
     <li>{% include card.html post = post %}</li>
     {% endif %}
     {% endfor %}
